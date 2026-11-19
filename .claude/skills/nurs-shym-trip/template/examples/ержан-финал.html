@@ -1,0 +1,156 @@
+<!doctype html>
+<!-- НУРС-SHYM-TRIP — Нұрсеріктің скиллі. PROXIMA — топ: олар нарықты колоссал етті. -->
+<!-- Nurserik Studio Hook — ролик «wipe transition» (Ержан), v6.
+     Мастер: экспорт CapCut без двух пауз + хвост «go» из FX3 (те же LUT пользователя). Сразу после хука — B-roll с переходами, титры идут поверх.
+     Примеры и блокнот — из «рилс ержан» (без звука). «Охват» — 5 рилсов, плавно по одному, без рамок. Финал — на спикере, ПЕРЕХОД и LET'S GO за головой. -->
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<style>
+  @font-face { font-family: Druk; src: url(a/Druk.ttf); }
+  @font-face { font-family: Hand; src: url(a/Hand.ttf); }
+  :root { --y: #FFE81A; }
+  .yb { font-family: Druk; color: var(--y); text-transform: uppercase; line-height: .86; letter-spacing: 1px; white-space: nowrap; text-shadow: 0 6px 30px rgba(0,0,0,.22); }
+  .yb .w, .hw .w { display: inline-block; }
+  .hw { font-family: Hand; color: #fff; font-size: 80px; line-height: 1; white-space: nowrap; text-shadow: 0 2px 12px rgba(0,0,0,.5); }
+  .excard { border-radius: 38px; overflow: hidden; background: #111; box-shadow: 0 40px 90px rgba(0,0,0,.6), 0 0 0 2px rgba(255,255,255,.08); }
+  .excard img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .rcard { border-radius: 34px; overflow: hidden; background: #111; box-shadow: 0 30px 70px rgba(0,0,0,.55); opacity: 0; }
+  .rcard img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .topfade { inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.5) 0%, rgba(0,0,0,0) 34%); }
+</style></head>
+<body data-frames="721" data-dur="24.03" data-ty="80" data-intro="none">
+<div id="stage">
+  <img id="ext"><div id="cam" class="cam"><img id="vid"></div><div id="behind"></div><div id="camc" class="cam"><img id="cut"></div>
+  <div id="shade"></div>
+
+  <!-- 1. Осыны көп / көрген шығарсың — две строки одинаковой ширины -->
+  <section class="scene" data-s="0.000" data-e="1.200" data-cam="1" data-push="0" data-cy="30" data-tr="none" data-sfx="none">
+    <div class="yb cx bh" style="top:250px;font-size:178px" data-fitw="700" data-in="0" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0 0.24">осыны көп</div>
+    <div class="yb cx bh" style="top:460px;font-size:150px" data-fitw="700" data-fitbelow="1" data-in="0.5" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.5 0.74">көрген шығарсың</div>
+  </section>
+
+  <!-- 2. Демонстрация: B-roll wipe-переходов, только его звук, без голоса спикера -->
+  <section class="scene full" data-s="1.200" data-e="2.567" data-tr="none" data-sfx="none" data-push="0" style="--bg:#000">
+    <img class="seq abs" data-seq="media/ex_wipe/" data-f0="1" data-nf="41" style="left:0;top:0;width:1080px;height:1920px;object-fit:cover">
+  </section>
+
+  <!-- 2b. Спикер: бұл / WIPE TRANSITION (за головой) / деп аталады -->
+  <section class="scene" data-s="2.567" data-e="4.407" data-cam="1" data-push="0" data-cy="30" data-tr="none" data-sfx="none">
+    <div class="hw abs" style="left:62px;top:316px" data-in="0.02" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.02">бұл</div>
+    <div class="yb abs bh" style="left:50px;top:392px;font-size:262px" data-in="0.14" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.14 0.74">wipe transition</div>
+    <div class="hw abs" style="right:62px;top:316px" data-in="1.08" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.08 1.46">деп аталады</div>
+  </section>
+
+  <!-- 3. Көп контент-мейкерлер осыны / ДИНАМИЧНЫЙ / видеоларға қолданады — примеры в карточке -->
+  <section class="scene full" data-s="4.407" data-e="7.587" data-tr="none" data-sfx="none" data-push="0.03" style="--bg:#070707">
+    <img class="seq abs" data-seq="media/ex_dyn/" data-f0="1" data-nf="97" style="left:-200px;top:-100px;width:1480px;height:2120px;object-fit:cover;filter:blur(70px) brightness(.3)">
+    <div class="excard abs" style="left:40px;top:700px;width:1000px;height:756px" data-in="0" data-fx="blur" data-from="bottom" data-dist="80" data-dur="0.5">
+      <img class="seq" data-seq="media/ex_dyn/" data-f0="1" data-nf="97"></div>
+    <div class="hw abs" style="left:62px;top:410px" data-in="0.02" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.02 0.3 1.02">көп контент-мейкерлер осыны</div>
+    <div class="yb abs" style="left:52px;top:488px;font-size:190px" data-in="1.54" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.54">динамичный</div>
+    <div class="hw abs" style="left:62px;top:1500px" data-in="2.12" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="2.12 2.66">видеоларға қолданады</div>
+  </section>
+
+  <!-- 4. Особенно travel, fashion, commercial — блокнот (B-roll без звука) -->
+  <section class="scene full" data-s="7.587" data-e="10.247" data-tr="none" data-sfx="none" data-push="0" style="--bg:#d8d0bf">
+    <img class="seq abs" data-seq="media/nb/" data-f0="1" data-nf="80" style="left:0;top:0;width:1080px;height:1920px;object-fit:cover">
+  </section>
+
+  <!-- 5a. Бұл переходтар маған — спикер, сразу после блокнота -->
+  <section class="scene" data-s="10.247" data-e="11.267" data-cam="1" data-push="0" data-cy="30" data-tr="none" data-sfx="none">
+    <div class="hw abs" style="left:62px;top:300px" data-in="0.0" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.0 0.12 0.68">бұл переходтар маған</div>
+  </section>
+
+  <!-- 5b. басқалардан / ЕРЕКШЕЛЕНУГЕ / көмектеседі — примеры в карточке -->
+  <section class="scene full" data-s="11.267" data-e="13.387" data-tr="none" data-sfx="none" data-push="0.03" style="--bg:#070707">
+    <img class="seq abs" data-seq="media/ex_bag/" data-f0="1" data-nf="66" style="left:-200px;top:-100px;width:1480px;height:2120px;object-fit:cover;filter:blur(70px) brightness(.3)">
+    <div class="excard abs" style="left:40px;top:700px;width:1000px;height:756px" data-in="0" data-fx="blur" data-from="bottom" data-dist="80" data-dur="0.5">
+      <img class="seq" data-seq="media/ex_bag/" data-f0="1" data-nf="66"></div>
+    <div class="hw abs" style="left:62px;top:410px" data-in="0.02" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.02">басқалардан</div>
+    <div class="yb abs" style="left:52px;top:488px;font-size:184px" data-in="0.78" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.78">ерекшеленуге</div>
+    <div class="hw abs" style="left:62px;top:1500px" data-in="1.52" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.52">көмектеседі</div>
+  </section>
+
+  <!-- 6. И соответственно рилсыма көбірек охват жинаймын — 5 рилсов (2 сверху, 3 снизу), плавно по одному, без рамок -->
+  <section class="scene full" data-s="13.387" data-e="15.867" data-push="0.02" data-tr="none" data-sfx="none" style="--bg:#070707">
+    <img class="abs" src="media/reels/2.jpg" style="left:-200px;top:-100px;width:1480px;height:2120px;object-fit:cover;filter:blur(60px) brightness(.32) saturate(1.1)">
+    <div class="abs" style="inset:0;background:radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 0%, rgba(0,0,0,.55) 75%)"></div>
+    <div class="rcard abs" style="left:150px;top:150px;width:360px;height:640px" data-sin="0.05"><img src="media/reels/1.jpg"></div>
+    <div class="rcard abs" style="left:570px;top:150px;width:360px;height:640px" data-sin="0.30"><img src="media/reels/2.jpg"></div>
+    <div class="rcard abs" style="left:40px;top:1150px;width:300px;height:533px" data-sin="0.55"><img src="media/reels/3.jpg"></div>
+    <div class="rcard abs" style="left:390px;top:1150px;width:300px;height:533px" data-sin="0.78"><img src="media/reels/4.jpg"></div>
+    <div class="rcard abs" style="left:740px;top:1150px;width:300px;height:533px" data-sin="1.00"><img src="media/reels/5.jpg"></div>
+    <div class="hw cx" style="top:812px;font-size:64px" data-in="0.02" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.02 0.72 1.02">и соответственно рилсыма</div>
+    <div class="yb cx" style="top:888px;font-size:210px" data-in="1.24" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.24 1.8">көбірек охват</div>
+  </section>
+
+  <!-- 7. Негізі оны / ҚОЛМЕН / жасауға болады — B-roll: переход руками с камерой -->
+  <section class="scene full" data-s="15.867" data-e="18.007" data-tr="none" data-sfx="none" data-push="0" style="--bg:#000">
+    <img class="seq abs" data-seq="media/ex_hand/" data-f0="1" data-nf="66" style="left:0;top:0;width:1080px;height:1920px;object-fit:cover">
+    <div class="abs topfade"></div>
+    <div class="hw abs" style="left:62px;top:204px" data-in="0.02" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.02 0.44">негізі оны</div>
+    <div class="yb abs" style="left:52px;top:282px;font-size:190px" data-in="0.78" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.78">қолмен</div>
+    <div class="hw abs" style="left:62px;top:432px" data-in="1.24" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.24 1.68">жасауға болады</div>
+  </section>
+
+  <!-- 8. Бірақ / КӨП УАҚЫТЫҢ / кетеді — сразу после B-roll -->
+  <section class="scene" data-s="18.007" data-e="19.647" data-cam="1" data-push="0" data-cy="30" data-tr="none" data-sfx="none">
+    <div class="hw abs" style="left:62px;top:204px" data-in="0.0" data-fx="words" data-wdur="0.35" data-wdy="30" data-wblur="10" data-w="0.0">бірақ</div>
+    <div class="yb abs" style="left:52px;top:282px;font-size:190px" data-in="0.38" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.38 0.96">көп уақытың</div>
+    <div class="hw abs" style="left:62px;top:432px" data-in="1.26" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.26">кетеді</div>
+  </section>
+
+  <!-- 9. Финал на спикере: комментке / ПЕРЕХОД (за головой) / деп жаз / мен саған дайын вариантын жіберемін -->
+  <section class="scene" data-s="19.647" data-e="22.967" data-cam="1" data-push="0" data-cy="30" data-tr="none" data-sfx="none">
+    <div class="hw abs" style="left:62px;top:262px" data-in="0.28" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.28" data-out="1.70" data-odur="0.3">комментке</div>
+    <div class="yb cx bh" style="top:372px;font-size:330px" data-in="0.80" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.80">переход</div>
+    <div class="hw abs" style="right:62px;top:262px" data-in="1.08" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.08 1.32" data-out="1.70" data-odur="0.3">деп жаз</div>
+    <div class="hw cx" style="top:300px;font-size:66px" data-fitto="ctaw" data-in="1.76" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="1.76 1.88 2.2 2.46 2.86">мен саған дайын вариантын жіберемін</div>
+  </section>
+
+  <!-- 10. Let's go! — за головой, «go» звучит до конца -->
+  <section class="scene" data-s="22.967" data-e="24.027" data-cam="1" data-push="0" data-cy="30" data-tr="none" data-sfx="none">
+    <div class="yb cx bh" style="top:236px;font-size:360px" data-in="0.0" data-fx="words" data-wdur="0.6" data-wdy="48" data-wblur="16" data-w="0.0 0.24">let's go</div>
+  </section>
+</div>
+<script src="engine.js"></script>
+<script>
+/* подгонка ширины: data-fitw — строка ровно заданной ширины; data-fitto — ширина как у элемента (id) и вплотную над ним */
+(function () {
+  const orig = window.render;
+  window.render = async function (t) {
+    const r = await orig(t);
+    document.querySelectorAll('[data-fitw],[data-fitto]').forEach(el => {
+      if (el.dataset.fitted || !el.offsetParent) return;
+      const ref = el.dataset.fitto ? document.getElementById(el.dataset.fitto) : null;
+      if (ref && !ref.offsetParent) return;
+      const target = ref ? ref.scrollWidth : parseFloat(el.dataset.fitw);
+      const fs = parseFloat(getComputedStyle(el).fontSize);
+      el.style.fontSize = (fs * target / el.scrollWidth) + 'px';
+      if (ref) el.style.top = (ref.offsetTop + 0.02 * parseFloat(getComputedStyle(ref).fontSize) - el.offsetHeight * 0.92) + 'px';
+      el.dataset.fitted = 1;
+    });
+    // вторая строка хука — сразу под первой (без зазора)
+    const l1 = document.querySelector('[data-fitw]:not([data-fitbelow])'), l2 = document.querySelector('[data-fitbelow]');
+    if (l1 && l2 && l1.dataset.fitted && !l2.dataset.placed && l2.dataset.fitted) { l2.style.top = (l1.offsetTop + l1.offsetHeight * 0.98) + 'px'; l2.dataset.placed = 1; }
+    return r;
+  };
+})();
+
+/* «охват»: карточки проявляются плавно по одному и чуть-чуть движутся вперёд (без пружины и рамок) */
+(function () {
+  const S0 = 13.387;
+  const ease = x => (x = Math.max(0, Math.min(1, x)), 1 - Math.pow(1 - x, 3));
+  const orig = window.render;
+  window.render = async function (t) {
+    const r = await orig(t);
+    document.querySelectorAll('.rcard[data-sin]').forEach(el => {
+      const lt = t - S0 - parseFloat(el.dataset.sin), k = ease(lt / 0.8);
+      el.style.opacity = lt <= 0 ? 0 : k;
+      el.style.transform = `translateY(${36 * (1 - k)}px) scale(${0.95 + 0.05 * k + 0.025 * Math.max(0, Math.min(1, lt / 2.4))})`;
+      el.style.filter = k < 1 ? `blur(${10 * (1 - k)}px)` : '';
+    });
+    return r;
+  };
+})();
+</script>
+</body></html>

@@ -25,6 +25,18 @@ python3 -m pip install -q $PIP_PKGS || python3 -m pip install -q --break-system-
 # 4. Node.js — нужен 20+
 node -v || true
 
+# 5. Свежие скиллы Нурсерика — каждый раз последняя версия.
+#    Новые скиллы приходят сами, «Sync fork» не нужен.
+mkdir -p "$HOME/.claude/skills"
+rm -rf /tmp/proxima-skills
+if git clone -q --depth 1 https://github.com/nurserikkoptileuov1-lang/montazh-skills /tmp/proxima-skills; then
+  cp -r /tmp/proxima-skills/.claude/skills/. "$HOME/.claude/skills/"
+  rm -rf /tmp/proxima-skills
+  echo "Скиллы обновлены: $(ls "$HOME/.claude/skills" | wc -l) шт."
+else
+  echo "Не удалось скачать свежие скиллы — работаю с теми, что в папке"
+fi
+
 ffmpeg -version | head -1
 /usr/bin/google-chrome --version || true
 echo "Окружение для монтажа готово"
