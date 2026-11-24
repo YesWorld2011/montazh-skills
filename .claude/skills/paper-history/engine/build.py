@@ -144,9 +144,9 @@ class Film:
         self.W, self.H = (1080, 1920) if fmt == "9:16" else (1920, 1080)
         self.v = fmt == "9:16"
         self.b = B(self.W, self.H, story.get("seed", 11))
-        self.cap_y = 1520 if self.v else 900
+        self.cap_y = story.get("cap_y", 1520) if self.v else 900  # cap_y: выше для Shorts (название YouTube закрывает низ)
         # content box (kept clear of captions and platform UI)
-        self.box = (60, 230, self.W - 60, 1460) if self.v else (120, 90, self.W - 120, 840)
+        self.box = (60, 230, self.W - 60, min(1460, self.cap_y - 60)) if self.v else (120, 90, self.W - 120, 840)
 
     # ----- element factory -----
     def el(self, inner, x, y, w, z, cls="", style=""):
