@@ -28,3 +28,8 @@
 - `ai-video` — ролик без съёмки: сцены из Veo + сборка.
 - `montazher` — монтаж по скиллу, сдача файла.
 Обычный путь: тема → `scenarist` → `ai-video` или `montazher` → output/.
+
+## Бесплатный русский голос (проверено)
+- Онлайн-голоса Microsoft (edge-tts) здесь не работают — прокси не пропускает WebSocket.
+- Работает **Piper**: `pip install piper-tts`, голос `ru_RU-dmitri-medium` (.onnx и .onnx.json) с huggingface.co/rhasspy/piper-voices (путь `ru/ru_RU/dmitri/medium/`). Озвучивай по фразе в отдельный wav (`--length-scale 0.93`), склей с паузами 0,35 с → `media/voice.mp3`. Числа пиши словами.
+- Первый ролик так сделан скиллом `paper-history` (тема — патоковый потоп в Бостоне, 1919).
