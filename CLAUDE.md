@@ -41,6 +41,12 @@
 - Удержание/CTR — только в YouTube Studio: пользователь присылает скриншот графика удержания → скилл `yt-retention`.
 - Кредиты vidIQ тратить только на: озвучку ElevenLabs и `vidiq_update_video` (публикация).
 
+## Своя библиотека фото (`library/`)
+- Перед поиском в Wikimedia смотри библиотеку: `python3 tools/photolib.py find <тег>` (лес, самолёт, газета, портрет, море…). В story.json: `{"file": "../../library/photos/<имя>.jpg", "cut": false, "dots": false}`. Авторы/лицензии — в `library/catalog.json` (для описания ролика).
+- После каждого ролика: `python3 tools/photolib.py import work/<ролик> "теги"` и поправь теги по фото.
+- Пополнение: `harvest library/terms.txt` качает медленно в `library/inbox` → смотри `photolib.py inbox out.png` → `approve <имя> "теги"` / `reject <имя>`. Только общественное достояние/CC0.
+- Если Wikimedia отвечает 429 — не жди, бери из библиотеки или замени сцену документом/цифрой.
+
 ## Агенты (`.claude/agents/`)
 - `scenarist` — темы, хук, сценарий, раскадровка, название.
 - `ai-video` — ролик без съёмки: сцены из Veo + сборка.
