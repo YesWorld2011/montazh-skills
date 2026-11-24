@@ -1,4 +1,30 @@
 {
+ "antarctic-endurance-ship-ice-1": {
+  "author": "Hurley, F.",
+  "commons": "File:Sailing ship Endurance trapped and crushed by ice in the Antarctic, 1915 (exbt-ice-LongNight).jpg",
+  "license": "Public domain",
+  "tags": [
+   "корабль",
+   "лёд",
+   "экспедиция",
+   "антарктида",
+   "ночь"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Sailing_ship_Endurance_trapped_and_crushed_by_ice_in_the_Antarctic,_1915_(exbt-ice-LongNight).jpg"
+ },
+ "antarctic-endurance-ship-ice-2": {
+  "author": "Underwood &amp; Underwood, copyright claimant",
+  "commons": "File:Shackleton's expedition to the Antarctic Endurance squeezed between an ice jam. LCCN2013646123.jpg",
+  "license": "Public domain",
+  "tags": [
+   "корабль",
+   "лёд",
+   "экспедиция",
+   "антарктида",
+   "крушение"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Shackleton%27s_expedition_to_the_Antarctic_Endurance_squeezed_between_an_ice_jam._LCCN2013646123.jpg"
+ },
  "barry-close": {
   "author": "Unknown authorUnknown author",
   "commons": "File:Portrait of Dr. James Barry Wellcome L0022264.jpg",
@@ -82,6 +108,69 @@
   ],
   "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Dr._James_Barry_Wellcome_L0022268.jpg"
  },
+ "cave-interior-1": {
+  "author": "Szilas",
+  "commons": "File:Postojna cave 2008-02-01 interior 01.jpg",
+  "license": "CC0",
+  "tags": [
+   "пещера",
+   "сталактиты",
+   "темнота"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Postojna_cave_2008-02-01_interior_01.jpg"
+ },
+ "cave-interior-2": {
+  "author": "Szilas",
+  "commons": "File:Postojna cave 2008-02-01 interior 06.jpg",
+  "license": "CC0",
+  "tags": [
+   "пещера",
+   "сталактиты",
+   "темнота",
+   "подземелье"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Postojna_cave_2008-02-01_interior_06.jpg"
+ },
+ "courtroom-trial-1900s-1": {
+  "author": "unknown",
+  "commons": "File:Evelina Haverfield and Emmeline Pankhurst in court, c.1909. (22935155781).jpg",
+  "license": "No restrictions",
+  "tags": [
+   "суд",
+   "процесс",
+   "люди",
+   "толпа",
+   "1900-е"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Evelina_Haverfield_and_Emmeline_Pankhurst_in_court,_c.1909._(22935155781).jpg"
+ },
+ "hospital-ward-19th-century-1": {
+  "author": "Samuel Loxton (artist)",
+  "commons": "File:Avonmouth hospital ship ward 1895.jpg",
+  "license": "Public domain",
+  "tags": [
+   "больница",
+   "палата",
+   "рисунок",
+   "19 век",
+   "медицина",
+   "корабль"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Avonmouth_hospital_ship_ward_1895.jpg"
+ },
+ "hospital-ward-19th-century-2": {
+  "author": "Army Medical Museum (U.S.), photographer",
+  "commons": "File:Hospital of Medical Department U.S.A. - Ward no. 1. Seen from southern end. LCCN2016646257.jpg",
+  "license": "Public domain",
+  "tags": [
+   "больница",
+   "палата",
+   "фото",
+   "19 век",
+   "медицина"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Hospital_of_Medical_Department_U.S.A._-_Ward_no._1._Seen_from_southern_end._LCCN2016646257.jpg"
+ },
  "karina-laika": {
   "author": "unknown",
   "commons": "File:West Siberian Laika.jpg",
@@ -108,6 +197,32 @@
    "осень"
   ],
   "url": "https://commons.wikimedia.org/wiki/File:Fall_colors_in_eastern_Siberia_(MODIS_2015-09-25).jpg"
+ },
+ "lifeboat-survivors-1": {
+  "author": "Louis Ogden",
+  "commons": "File:Photograph of a Lifeboat Carrying Titanic Survivors - NARA - 278337.jpg",
+  "license": "Public domain",
+  "tags": [
+   "шлюпка",
+   "море",
+   "выжившие",
+   "спасение",
+   "люди"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Photograph_of_a_Lifeboat_Carrying_Titanic_Survivors_-_NARA_-_278337.jpg"
+ },
+ "lifeboat-survivors-2": {
+  "author": "Louis Ogden",
+  "commons": "File:This is an uncaptioned photograph of TITANIC survivors in a lifeboat after the sinking. - NARA - 278335.jpg",
+  "license": "Public domain",
+  "tags": [
+   "шлюпка",
+   "море",
+   "выжившие",
+   "спасение",
+   "океан"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:This_is_an_uncaptioned_photograph_of_TITANIC_survivors_in_a_lifeboat_after_the_sinking._-_NARA_-_278335.jpg"
  },
  "molasses-aerial": {
   "author": "BPL",
@@ -182,6 +297,68 @@
   ],
   "url": "https://commons.wikimedia.org/wiki/File:GreatMolassesFlood_1919-Wreckage_under_the_elevated_tracks.jpg"
  },
+ "new-york-street-1910s-1": {
+  "author": "Paul Strand",
+  "commons": "File:Paul Strand, Wall Street, New York City, 1915.jpg",
+  "license": "Public domain",
+  "tags": [
+   "город",
+   "улица",
+   "люди",
+   "1910-е",
+   "тени"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Paul_Strand,_Wall_Street,_New_York_City,_1915.jpg"
+ },
+ "new-york-street-1910s-2": {
+  "author": "George Grantham Bain Collection",
+  "commons": "File:New York City street scenes - crowds before Trinity Church LCCN93506589.jpg",
+  "license": "Public domain",
+  "tags": [
+   "город",
+   "нью-йорк",
+   "толпа",
+   "люди",
+   "1910-е"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:New_York_City_street_scenes_-_crowds_before_Trinity_Church_LCCN93506589.jpg"
+ },
+ "old-telegram-1": {
+  "author": "Riksarkivet",
+  "commons": "File:Telegram från Gustav V.jpg",
+  "license": "Public domain",
+  "tags": [
+   "телеграмма",
+   "документ",
+   "сообщение"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Telegram_fr%C3%A5n_Gustav_V.jpg"
+ },
+ "police-1920s-2": {
+  "author": "LBPD",
+  "commons": "File:Chief Yancy, LBPD (1920s).jpg",
+  "license": "Public domain",
+  "tags": [
+   "полиция",
+   "портрет",
+   "мужчина",
+   "1920-е",
+   "начальник"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Chief_Yancy,_LBPD_(1920s).jpg"
+ },
+ "prison-cell-1": {
+  "author": "Kuli",
+  "commons": "File:Prison cell of Sándor Rózsa, in Kufstein Castle.jpg",
+  "license": "CC0",
+  "tags": [
+   "тюрьма",
+   "камера",
+   "одиночка",
+   "решётка"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Prison_cell_of_S%C3%A1ndor_R%C3%B3zsa,_in_Kufstein_Castle.jpg"
+ },
  "savitskaya-birch": {
   "author": "W.carter",
   "commons": "File:Birch forest Gullmarsskogen 7.jpg",
@@ -209,5 +386,130 @@
    "небо"
   ],
   "url": "https://commons.wikimedia.org/wiki/File:Tu-16_Badger_G.jpg"
+ },
+ "shipwreck-19th-century-1": {
+  "author": "NOAA Office of Ocean Exploration and Research",
+  "commons": "File:Gulf of Mexico shipwreck rudder 2019.png",
+  "license": "Public domain",
+  "tags": [
+   "кораблекрушение",
+   "под водой",
+   "затонувший корабль"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Gulf_of_Mexico_shipwreck_rudder_2019.png"
+ },
+ "shipwreck-19th-century-2": {
+  "author": "NOAA Office of Ocean Exploration and Research",
+  "commons": "File:Gulf of Mexico shipwreck bow 2019.png",
+  "license": "Public domain",
+  "tags": [
+   "кораблекрушение",
+   "под водой",
+   "затонувший корабль",
+   "дно"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Gulf_of_Mexico_shipwreck_bow_2019.png"
+ },
+ "soviet-newspaper-pravda-2": {
+  "author": "Scanning Dmitry Makeev, scan date - 2019 year.",
+  "commons": "File:Newspapers Pionerskaya Pravda. img 15.jpg",
+  "license": "Public domain",
+  "tags": [
+   "газета",
+   "ссср",
+   "правда",
+   "заголовок"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Newspapers_Pionerskaya_Pravda._img_15.jpg"
+ },
+ "steam-locomotive-1": {
+  "author": "Karora",
+  "commons": "File:JA1271 crossing the Otaki River.jpg",
+  "license": "Public domain",
+  "tags": [
+   "поезд",
+   "паровоз",
+   "железная дорога",
+   "мост",
+   "дым"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:JA1271_crossing_the_Otaki_River.jpg"
+ },
+ "stormy-sea-painting-1": {
+  "author": "Peder Balke",
+  "commons": "File:Peder Balke - Stormy Sea - Google Art Project.jpg",
+  "license": "Public domain",
+  "tags": [
+   "шторм",
+   "море",
+   "волны",
+   "картина",
+   "чайки"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Peder_Balke_-_Stormy_Sea_-_Google_Art_Project.jpg"
+ },
+ "stormy-sea-painting-2": {
+  "author": "Ivan Aivazovsky",
+  "commons": "File:Stormy sea at night.jpg",
+  "license": "Public domain",
+  "tags": [
+   "шторм",
+   "море",
+   "корабль",
+   "картина",
+   "айвазовский",
+   "ночь",
+   "луна"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Stormy_sea_at_night.jpg"
+ },
+ "titanic-1912-1": {
+  "author": "Courtesy of NOAA/Institute for Exploration/University of Rhode Island (NOAA/IFE/URI).",
+  "commons": "File:Titanic wreck bow.jpg",
+  "license": "Public domain",
+  "tags": [
+   "титаник",
+   "затонувший корабль",
+   "под водой",
+   "нос корабля"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Titanic_wreck_bow.jpg"
+ },
+ "titanic-1912-2": {
+  "author": "Keppler, Udo J., 1872-1956, artist",
+  "commons": "File:LuxuriesVersusLifeboatsPuckMagazine1912.jpg",
+  "license": "Public domain",
+  "tags": [
+   "титаник",
+   "крушение",
+   "айсберг",
+   "иллюстрация",
+   "1912"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:LuxuriesVersusLifeboatsPuckMagazine1912.jpg"
+ },
+ "typewriter-vintage-1": {
+  "author": "Florian Klauer florianklauer",
+  "commons": "File:Vintage typewriter (Unsplash).jpg",
+  "license": "CC0",
+  "tags": [
+   "пишущая машинка",
+   "документ",
+   "секретно"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:Vintage_typewriter_(Unsplash).jpg"
+ },
+ "wwii-soldiers-snow-1": {
+  "author": "Unknown authorUnknown author or not provided",
+  "commons": "File:WWII, Europe, Germany, \"U.S. Soldiers in Geilenmerchen, Germany stringing barbed wire in the snow\" - NARA - 196305.tif",
+  "license": "Public domain",
+  "tags": [
+   "война",
+   "солдаты",
+   "снег",
+   "1940-е",
+   "зима"
+  ],
+  "url": "https://commons.wikimedia.org/wiki/File:WWII,_Europe,_Germany,_%22U.S._Soldiers_in_Geilenmerchen,_Germany_stringing_barbed_wire_in_the_snow%22_-_NARA_-_196305.tif"
  }
 }

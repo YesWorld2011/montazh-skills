@@ -1,25 +1,25 @@
 # запрос | теги   (по 2 фото на запрос, только общественное достояние)
-Titanic 1912 | корабль,титаник,море,катастрофа,1912
-lifeboat survivors | шлюпка,море,выжившие,спасение
-shipwreck 19th century | кораблекрушение,море,шторм,19 век
-stormy sea painting | шторм,море,волны,картина
-arctic expedition 1900 | арктика,экспедиция,лёд,снег,полярники
-Antarctic Endurance ship ice | антарктида,корабль,лёд,экспедиция
-desert island beach | остров,пляж,необитаемый,море
-jungle rainforest | джунгли,лес,тропики
-mountain snow peak | горы,снег,вершина
-cave interior | пещера,темнота
-Soviet newspaper Pravda | газета,ссср,правда,документ
-typewriter vintage | пишущая машинка,документ,секретно
+# готово: Titanic 1912 | корабль,титаник,море,катастрофа,1912
+# готово: lifeboat survivors | шлюпка,море,выжившие,спасение
+# готово: shipwreck 19th century | кораблекрушение,море,шторм,19 век
+# готово: stormy sea painting | шторм,море,волны,картина
+# готово: arctic expedition 1900 | арктика,экспедиция,лёд,снег,полярники
+# готово: Antarctic Endurance ship ice | антарктида,корабль,лёд,экспедиция
+# готово: desert island beach | остров,пляж,необитаемый,море
+# готово: jungle rainforest | джунгли,лес,тропики
+# готово: mountain snow peak | горы,снег,вершина
+# готово: cave interior | пещера,темнота
+# готово: Soviet newspaper Pravda | газета,ссср,правда,документ
+# готово: typewriter vintage | пишущая машинка,документ,секретно
 old telegram | телеграмма,документ,сообщение
-police 1920s | полиция,1920-е,закон
-prison cell | тюрьма,камера,решётка
-courtroom trial 1900s | суд,процесс,закон
-hospital ward 19th century | больница,палата,19 век,медицина
-steam locomotive | поезд,паровоз,железная дорога
-New York street 1910s | город,нью-йорк,улица,1910-е
-Moscow 1930s | москва,ссср,город,1930-е
-WWII soldiers snow | война,солдаты,снег,1940-е
+# готово: police 1920s | полиция,1920-е,закон
+# готово: prison cell | тюрьма,камера,решётка
+# готово: courtroom trial 1900s | суд,процесс,закон
+# готово: hospital ward 19th century | больница,палата,19 век,медицина
+# готово: steam locomotive | поезд,паровоз,железная дорога
+# готово: New York street 1910s | город,нью-йорк,улица,1910-е
+# готово: Moscow 1930s | москва,ссср,город,1930-е
+# готово: WWII soldiers snow | война,солдаты,снег,1940-е
 airplane 1930s | самолёт,авиация,1930-е
 crowd of people 1900s | люди,толпа,1900-е
 old map 18th century | карта,старинная,18 век
