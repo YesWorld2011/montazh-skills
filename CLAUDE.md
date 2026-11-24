@@ -34,3 +34,8 @@
 - Онлайн-голоса Microsoft (edge-tts) здесь не работают — прокси не пропускает WebSocket.
 - Работает **Piper**: `pip install piper-tts`, голос `ru_RU-dmitri-medium` (.onnx и .onnx.json) с huggingface.co/rhasspy/piper-voices (путь `ru/ru_RU/dmitri/medium/`). Озвучивай по фразе в отдельный wav (`--length-scale 0.93`), склей с паузами 0,35 с → `media/voice.mp3`. Числа пиши словами.
 - Первый ролик так сделан скиллом `paper-history` (тема — патоковый потоп в Бостоне, 1919).
+
+## Канал YouTube
+- «Было на самом деле», @bylo_na_samom_dele, channelId `UC7OMMg6KGiebfcb-zE8llkw`. Подключён через коннектор vidIQ: могу менять название/описание/теги и расписание публикации (`vidiq_update_video`), смотреть статистику. Загружает видео пользователь сам.
+- Готовые ролики можно класть в Google Диск пользователя (коннектор Google Drive) — с телефона удобнее, чем GitHub.
+- Ролики: 1) патока, Бостон 1919 — `Ffno_n0hKgM`.
