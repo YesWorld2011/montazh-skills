@@ -620,6 +620,10 @@ class Film:
         for row in self.words:
             cur = []
             for w in row:
+                # paper-history: не даём плашке вылезти за кадр — длинные слова уходят в новую плашку
+                if cur and len("".join(x["w"] for x in cur + [w])) + len(cur) > 20:
+                    chunks.append(cur)
+                    cur = []
                 cur.append(w)
                 end_punct = w["w"][-1:] in ".,;:?!"
                 if len(cur) >= 3 or end_punct or (len(cur) >= 2 and len("".join(x["w"] for x in cur)) > 11):
