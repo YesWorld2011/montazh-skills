@@ -21,11 +21,13 @@ FREE = re.compile(r"public domain|^pd|cc0|no restrictions", re.I)
 BY = re.compile(r"^cc[ -]by", re.I)
 
 
-def _get(params, tries=4):
+def _get(params, tries=7):
     for i in range(tries):
         r = requests.get(API, params=params, headers=UA, timeout=30)
         if r.status_code == 429:
-            time.sleep(2 + i * 3)
+            # paper-history: ждём, сколько просит Wikimedia (Retry-After), иначе 20, 40, 60... с
+            ra = r.headers.get("Retry-After", "")
+            time.sleep(min(int(ra), 120) if ra.isdigit() else 20 * (i + 1))
             continue
         r.raise_for_status()
         return r.json()
@@ -96,7 +98,7 @@ def get(title, out, credits="CREDITS.txt", allow_by=False):
                               capture_output=True, text=True).stdout.strip()
         if code == "200":
             break
-        time.sleep(5 * (i + 1))
+        time.sleep(20 * (i + 1))  # paper-history: при 429 ждём дольше
     if code != "200":
         if os.path.exists(out):
             os.remove(out)  # paper-history: не оставлять страницу ошибки вместо фото
