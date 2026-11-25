@@ -1,0 +1,21 @@
+name: Send Video
+on:
+  push:
+    branches: [ main ]
+jobs:
+  send_video:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get latest video
+        id: video
+        run: echo "file=$(ls output/*.mp4 | tail -n 1)" >> $GITHUB_OUTPUT
+
+      - name: Send video to Telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          video: ${{ steps.video.outputs.file }}
