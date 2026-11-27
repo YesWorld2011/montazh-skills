@@ -62,6 +62,13 @@
 - `montazher` — монтаж по скиллу, сдача файла.
 Обычный путь: тема → `scenarist` → `ai-video` или `montazher` → output/.
 
+## Озвучка: ElevenLabs API (основной способ)
+- Ключ сохранён в среде «Монтаж» как секрет для api.elevenlabs.io — прокси подставляет его сам, в коде ключ не указывать.
+- Тариф пользователя — **Starter** (коммерческая лицензия), лимит ~39 тыс. знаков/мес, сброс 27-го числа. Проверка: `curl -s https://api.elevenlabs.io/v1/user/subscription`.
+- Голос Prince Nur `gJEfHTTiifXEDmO687lC`, модель `eleven_v4`. Весь текст одним запросом, строки через пустую строку (естественные паузы):
+  `curl -s -o media/voice_raw.mp3 -H "Content-Type: application/json" -X POST "https://api.elevenlabs.io/v1/text-to-speech/gJEfHTTiifXEDmO687lC?output_format=mp3_44100_128" --data-binary @tts.json` (tts.json = {"text": ..., "model_id": "eleven_v4"}).
+- Не озвучивать через vidIQ и бесплатный ElevenLabs (нет коммерческой лицензии).
+
 ## Бесплатный русский голос (проверено)
 - Онлайн-голоса Microsoft (edge-tts) здесь не работают — прокси не пропускает WebSocket.
 - Работает **Piper**: `pip install piper-tts`, голос `ru_RU-dmitri-medium` (.onnx и .onnx.json) с huggingface.co/rhasspy/piper-voices (путь `ru/ru_RU/dmitri/medium/`). Озвучивай по фразе в отдельный wav (`--length-scale 0.93`), склей с паузами 0,35 с → `media/voice.mp3`. Числа пиши словами.
@@ -70,5 +77,5 @@
 ## Канал YouTube
 - «Было на самом деле», @bylo_na_samom_dele, channelId `UC7OMMg6KGiebfcb-zE8llkw`. Подключён через коннектор vidIQ: могу менять название/описание/теги и расписание публикации (`vidiq_update_video`), смотреть статистику. Загружает видео пользователь сам.
 - Готовые ролики можно класть в Google Диск пользователя (коннектор Google Drive) — с телефона удобнее, чем GitHub.
-- Ролики: 1) патока, Бостон 1919 — `Ffno_n0hKgM`; 2) доктор Барри — `e-vzxeWNtLg` (публикация 25.11 19:00 Алматы); 3) Савицкая — `0owS0xfRR80` (перезалит, 27.11 19:00; старый `hRxbKszkr-Q` удалён); 4) девочка в тайге — `9bB6Hj5hGK4` (29.11 19:00). Кредиты vidIQ на нуле до 24.12: ID ролика проси ссылкой у пользователя, расписание — пользователь сам в Studio («Запланировать»), голос — пользователь озвучивает сам (ElevenLabs у себя) по тексту `output/<ролик>-tekst.md` и присылает ссылкой на Google Диск. Ролики до ~65 с YouTube принимает как Shorts (Барри 62 с — в Shorts; vidIQ может ошибочно писать «long»).
-- Публикуем в 19:00 по Алматы (UTC+5) через день. План: output/plan-nedelya-1.md. Субтитры в paper-history: `"cap_y": 1290`, портреты `"dots": false`. Голос: ElevenLabs Prince Nur через vidIQ (28 кредитов/1000 знаков), запас — Piper.
+- Ролики: 1) патока, Бостон 1919 — `Ffno_n0hKgM`; 2) доктор Барри — `e-vzxeWNtLg` (публикация 25.11 19:00 Алматы); 3) Савицкая — `0owS0xfRR80` (перезалит, 27.11 19:00; старый `hRxbKszkr-Q` удалён); 4) девочка в тайге — `9bB6Hj5hGK4` (29.11 19:00). Кредиты vidIQ на нуле до 24.12: ID ролика проси ссылкой у пользователя, расписание — пользователь сам в Studio («Запланировать»), голос — ElevenLabs API (см. раздел «Озвучка»). Ролики до ~65 с YouTube принимает как Shorts (Барри 62 с — в Shorts; vidIQ может ошибочно писать «long»).
+- Публикуем в 19:00 по Алматы (UTC+5) через день. План: output/plan-nedelya-1.md. Субтитры в paper-history: `"cap_y": 1290`, портреты `"dots": false`. Голос: ElevenLabs API, Prince Nur, eleven_v4.
