@@ -47,7 +47,7 @@
 - `python3 tools/yt_free.py find "тема"` — поиск Shorts по теме → аутлайеры (во сколько раз ролик выше медианы своего канала). Замена vidiq_outliers.
 - `python3 tools/yt_free.py outliers @канал1 @канал2` — аутлайеры конкретных каналов.
 - Удержание/CTR — только в YouTube Studio: пользователь присылает скриншот графика удержания → скилл `yt-retention`.
-- Кредиты vidIQ тратить только на: озвучку ElevenLabs и `vidiq_update_video` (публикация).
+- Кредиты vidIQ (Max, 6000/мес): `vidiq_update_video`, `vidiq_outliers` (аутлайеры), `vidiq_trending_videos`, `vidiq_score_title`, `vidiq_keyword_research`. Озвучку делать через ElevenLabs API, не через vidIQ.
 
 ## Своя библиотека фото (`library/`)
 - Перед поиском в Wikimedia смотри библиотеку: `python3 tools/photolib.py find <тег>` (лес, самолёт, газета, портрет, море…). В story.json: `{"file": "../../library/photos/<имя>.jpg", "cut": false, "dots": false}`. Авторы/лицензии — в `library/catalog.json` (для описания ролика).
@@ -77,5 +77,5 @@
 ## Канал YouTube
 - «Было на самом деле», @bylo_na_samom_dele, channelId `UC7OMMg6KGiebfcb-zE8llkw`. Подключён через коннектор vidIQ: могу менять название/описание/теги и расписание публикации (`vidiq_update_video`), смотреть статистику. Загружает видео пользователь сам.
 - Готовые ролики можно класть в Google Диск пользователя (коннектор Google Drive) — с телефона удобнее, чем GitHub.
-- Ролики: 1) патока, Бостон 1919 — `Ffno_n0hKgM`; 2) доктор Барри — `e-vzxeWNtLg` (публикация 25.11 19:00 Алматы); 3) Савицкая — `0owS0xfRR80` (перезалит, 27.11 19:00; старый `hRxbKszkr-Q` удалён); 4) девочка в тайге — `9bB6Hj5hGK4` (29.11 19:00). Кредиты vidIQ на нуле до 24.12: ID ролика проси ссылкой у пользователя, расписание — пользователь сам в Studio («Запланировать»), голос — ElevenLabs API (см. раздел «Озвучка»). Ролики до ~65 с YouTube принимает как Shorts (Барри 62 с — в Shorts; vidIQ может ошибочно писать «long»).
+- Ролики: 1) патока, Бостон 1919 — `Ffno_n0hKgM`; 2) доктор Барри — `e-vzxeWNtLg` (публикация 25.11 19:00 Алматы); 3) Савицкая — `0owS0xfRR80` (перезалит, 27.11 19:00; старый `hRxbKszkr-Q` удалён); 4) девочка в тайге — `9bB6Hj5hGK4` (29.11 19:00); 5) остров Ата — `c8hudyLrNq4` (1.12 19:00); 6) Демара — ещё не загружен (4.12? см. output/velikij-samozvanec.txt, чт 3.12 19:00). vidIQ **Max подключён** (аккаунт shadowshaman72347@gmail.com, 6100 кредитов, сброс 27.12; проверка `vidiq_get_profile`). ID роликов смотри `vidiq_user_videos` (5 кр.), заполняй и ставь расписание `vidiq_update_video` (при `verification_required` пользователь открывает ссылку и выбирает канал и все галочки; ссылка одноразовая). голос — ElevenLabs API (см. раздел «Озвучка»). Ролики до ~65 с YouTube принимает как Shorts (Барри 62 с — в Shorts; vidIQ может ошибочно писать «long»).
 - Публикуем в 19:00 по Алматы (UTC+5) через день. План: output/plan-nedelya-1.md. Субтитры в paper-history: `"cap_y": 1290`, портреты `"dots": false`. Голос: ElevenLabs API, Prince Nur, eleven_v4.
