@@ -1,0 +1,6 @@
+hcloud.jpg: File:Atomic cloud over Hiroshima.jpg | George R. Caron | Public domain | https://commons.wikimedia.org/wiki/File:Atomic_cloud_over_Hiroshima.jpg
+haerial.jpeg: File:Hiroshima aerial view after atomic bomb 8-1945.jpeg | U.S. Navy (The image is part of a scrapbook assembled by Commander Francis N. Gilreath during his service as Flag Secret | Public domain | https://commons.wikimedia.org/wiki/File:Hiroshima_aerial_view_after_atomic_bomb_8-1945.jpeg
+hmuseum.jpg: File:Blast-damaged ruins of Hiroshima University Museum.jpg | Unknown , United States Government | Public domain | https://commons.wikimedia.org/wiki/File:Blast-damaged_ruins_of_Hiroshima_University_Museum.jpg
+ncloud.jpg: File:Nagasakibomb.jpg | Charles Levy | Public domain | https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg
+ntorii.jpg: File:Destruction in Nagasaki, Japan, in September 1945 (01).jpg | U.S. Navy | Public domain | https://commons.wikimedia.org/wiki/File:Destruction_in_Nagasaki,_Japan,_in_September_1945_(01).jpg
+nham.png: File:Hamaguchi-machi, Nagasaki - 10 August 1945 around at 1300.png | Yamahata Yōsuke | Public domain | https://commons.wikimedia.org/wiki/File:Hamaguchi-machi,_Nagasaki_-_10_August_1945_around_at_1300.png
